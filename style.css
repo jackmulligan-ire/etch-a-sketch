@@ -2,7 +2,7 @@ body {
     height: 1000px;
     width: 1000px;
 }
-/* give container a 1px border */
+
 #container {
     height: 100%;
     width: 100%;
@@ -10,10 +10,7 @@ body {
     flex-wrap: wrap;
     border: 1px solid black;
 }
-/* delete border from square class */
-.square {
-    flex: 6%;
-}
+
 .black {
     background-color: black;
 }
