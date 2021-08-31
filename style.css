@@ -1,6 +1,19 @@
 body {
-    height: 1000px;
-    width: 1000px;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, #eb3349, #f45c43);
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    color: #FF0;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+    background-color: #FF0;
 }
 
 #container {
@@ -8,9 +21,20 @@ body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid black;
+    border: 1px solid #16161d;
+    box-shadow: 0 3px 8px 3px #16161d;
+}
+
+#display {
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    margin-bottom: 15px;
+    align-items: center;
+    color: #16161d;
+    font-size: 15px;
 }
 
 .black {
-    background-color: black;
+    background-color: #16161d;
 }
