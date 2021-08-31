@@ -1,6 +1,5 @@
 const container = document.querySelector('#container');
 const resetButton = document.getElementById('reset-button');
-// Store the new dimension-count and square-count in two consts
 const dimensionDiv = document.getElementById('dimension-count');
 const squareDiv = document.getElementById('square-count');
 const initDimensions = 16;
@@ -20,9 +19,7 @@ function drawGrid(dimensions) {
         square.addEventListener("mouseover", (e) => e.target.classList.add('black'));
         container.appendChild(square);
     }
-    //textContent of dimension-count div to be “Dimensions: ${dimensions} x ${dimensions}
     dimensionDiv.textContent = `Dimensions: ${dimensions} x ${dimensions}`;
-    // textContent of squares-count to be “No. of squares: ${numOfSquares} 
     squareDiv.textContent = `No. of Squares: ${numOfSquares}`;
 }
 
