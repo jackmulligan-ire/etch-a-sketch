@@ -22,7 +22,7 @@ function drawGrid(dimensions) {
 function resetGrid() {
     let squares = document.querySelectorAll('.square');
     squares.forEach(square => container.removeChild(square));
-    let userDimensions = +prompt("Enter in dimensions of the grid (max 100: ", 16);
+    let userDimensions = +prompt("Enter in dimensions of the grid (max 100): ", 16);
     if (userDimensions > 100) userDimensions = 100;
     drawGrid(userDimensions)
 }
