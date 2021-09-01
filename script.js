@@ -12,7 +12,7 @@ function drawGrid(dimensions) {
     let flexValue = 100/dimensions.toFixed(3);
     let flexDeclaration = flexValue + "%";
     let square
-    for (i=1; i <= numOfSquares; i++) {
+    for (i=0; i < numOfSquares; i++) {
         square = document.createElement('div');
         square.classList.add('square');
         square.style.flex = flexDeclaration;
