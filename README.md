@@ -27,4 +27,4 @@ What I learned through this project:
 
 **4. Problem Solving**
 - Breaking larger project into sub tasks: To start, I created a single square div in my script and appended this to the DOM. Then, I created 16 square divs and arranged them in a row. I then moved onto creating 16 rows and 16 columns as per the brief. I approached all elements of the project in this way
-- Understand, plan, divide and conquer: Made use of this methodology to solve each sub-task, defining inputs and outputs, as well as writing pseudocode on how to solve the sub-task. This made it more efficient to solve the sub-tasks and debug as necessary
+- Understand, plan, divide and conquer: Made use of this methodology to solve each sub-task, defining inputs and outputs, as well as writing pseudocode on how to solve the sub-task. This made it more efficient to solve the sub-tasks and debug as necessary.
